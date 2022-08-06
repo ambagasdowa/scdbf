@@ -21,3 +21,9 @@ Testing in Ranger FM
 View in batcat pager
 
 ![Batcat](./screenshots/batcat_pipe.png "Pipe to Batcat")
+
+## Install
+
+```sh
+pip3 install scdbf
+```
