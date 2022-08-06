@@ -2,7 +2,9 @@
 
 Simple cat dbf files written in python
 
-Testing in Ranger FM
+Testing in ![Ranger FM](https://github.com/ranger/ranger "Ranger FileManager") as viewver
+
+Add in scope.sh
 
 ```sh
 # ...
@@ -18,12 +20,12 @@ Testing in Ranger FM
 
 ![Ranger FM](./screenshots/ranger_dbf.png "Ranger View")
 
-View in batcat pager
+View in ![bat](https://github.com/sharkdp/bat "bat") pager
 
 ![Batcat](./screenshots/batcat_pipe.png "Pipe to Batcat")
 
 ## Install
 
 ```sh
-pip3 install scdbf
+pip install scdbf
 ```
