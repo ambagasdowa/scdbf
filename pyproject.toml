@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scdbf"
-version = "0.0.4"
+version = "0.0.5"
 description = "Simple cat for dbf files"
 authors = [
   { name="Jesus Baizabal", email="baizabal.jesus@gmail.com" },
@@ -27,6 +27,11 @@ dependencies = [
 "Bug Tracker" = "https://github.com/ambagasdowa/scdbf/issues"
 [project.scripts]
 scdbf = "scdbf.scdbf:main"
+
+[tool.setuptools]
+package-dir = {"" = "./"}  # directory containing all the packages (e.g.  src/mypkg1, src/mypkg2)
+[tool.setuptools.packages]
+find = {}  # Scanning implicit namespaces is active by default
 
 #dynamic = ["version"]
 

@@ -11,6 +11,7 @@ from __future__ import print_function
 
 import sys
 import csv
+import importlib.metadata
 from dbfread import DBF
 
 
@@ -20,6 +21,11 @@ def show(*words):
 
 def show_field(field):
     print('    {} ({} {})'.format(field.name, field.type, field.length))
+
+
+def version():
+    version = importlib.metadata.version('scdbf')
+    return version
 
 
 def info():
@@ -49,7 +55,6 @@ def code():
 
 
 def main():
-
 
     for filename in sys.argv[1:]:
 
